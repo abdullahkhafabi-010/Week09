@@ -136,20 +136,20 @@ Perbedaannya adalah `RedTextWidget` memungkinkan teks untuk menyesuaikan diri de
 
 <b>Jawab:</b>
 
-a. text (String):
-
-Parameter ini adalah teks yang akan ditampilkan oleh widget. Nilai teks ini akan diberikan saat membuat instance dari RedTextWidget.
-
-b. style (TextStyle):
-
-Parameter ini menentukan gaya teks, seperti warna dan ukuran font. Dalam contoh ini, gaya teks diberikan dengan warna merah dan ukuran font 14.
-
-c. maxLines (int):
-
-Parameter ini menentukan jumlah maksimal baris yang dapat ditampilkan oleh widget. Dalam contoh ini, diatur menjadi 2, artinya widget akan menampilkan hingga 2 baris teks sebelum menerapkan TextOverflow.
-
-d. overflow (TextOverflow):
-
-Parameter ini menentukan cara menangani teks jika melebihi jumlah maksimal baris yang ditentukan oleh maxLines. Dalam contoh ini, diatur sebagai TextOverflow.ellipsis, yang berarti teks yang melebihi batas akan ditampilkan sebagai ellipsis (...).
+- text: `Teks yang akan ditampilkan pada widget.`
+- style: `Style teks yang akan ditampilkan pada widget.`
+- maxLines: `Jumlah maksimal baris yang akan ditampilkan pada widget.`
+- overflow: `Teks yang akan ditampilkan jika melebihi jumlah maksimal baris yang ditampilkan pada widget.`
+- minFontSize: `Ukuran minimal teks yang akan ditampilkan pada widget.`
+- maxFontSize: `Ukuran maksimal teks yang akan ditampilkan pada widget.`
+- stepGranularity: `Ukuran langkah yang digunakan untuk mengatur ukuran teks pada widget.`
+- presetFontSizes: `Ukuran teks yang akan ditampilkan pada widget.`
+- group: `Group yang digunakan untuk mengatur ukuran teks pada widget.`
+- textAlign: `Penataan teks yang akan ditampilkan pada widget.`
+- textDirection: `Arah teks yang akan ditampilkan pada widget.`
+- textScaleFactor: `Faktor skala teks yang akan ditampilkan pada widget.`
+- semanticsLabel: `Label semantik yang digunakan untuk mengatur ukuran teks pada widget.`
+- wrapWords: `Mengatur apakah teks yang akan ditampilkan pada widget akan dibungkus atau tidak.`
+- locale: `Digunakan untuk memilih font ketika karakter Unicode yang sama dapat dirender secara berbeda, bergantung pada lokalnya.`
 
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke spreadsheet yang telah disediakan!
