@@ -16,10 +16,7 @@ Selesaikan langkah-langkah praktikum berikut ini menggunakan editor Visual Studi
 ### <b>Langkah 1: Buat Project Baru</b>
 
 Buatlah sebuah project flutter baru dengan nama flutter_plugin_pubdev. Lalu jadikan repository di GitHub Anda dengan nama flutter_plugin_pubdev.
-
-<b>Jawab:</b>
-
-![Alt text](img/1.png)
+1
 
 ### <b>Langkah 2: Menambahkan Plugin</b>
 
@@ -29,7 +26,7 @@ Tambahkan plugin auto_size_text menggunakan perintah berikut di terminal
 
 <b>Jawab:</b>
 
-![Alt text](img/2.png)
+![Alt text](img/1.png)
 
 ### <b>Langkah 3: Buat file red_text_widget.dart</b>
 
@@ -48,7 +45,7 @@ import 'package:flutter/material.dart';
 
 <b>Jawab:</b>
 
-![Alt text](img/3.png)
+![Alt text](img/2.png)
 
 ### <b>Langkah 4: Tambah Widget AutoSizeText</b>
 
@@ -65,7 +62,7 @@ Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa
 
 <b>Jawab:</b>
 
-![Alt text](img/4.png)
+![Alt text](img/3.png)
 
 Pada kode diatas error karena variabel text belum didefinisikan dan belum melakukan import untuk package auto_size_text.
 
@@ -79,7 +76,7 @@ Tambahkan variabel text dan parameter di constructor seperti berikut.
 
 <b>Jawab:</b>
 
-![Alt text](img/5.png)
+![Alt text](img/4.png)
 
 ### <b>Langkah 6: Tambahkan widget di main.dart</b>
 
@@ -106,11 +103,8 @@ Run aplikasi tersebut dengan tekan F5, maka hasilnya akan seperti berikut.
 
 <b>Jawab:</b>
 
+![Alt text](img/5.png)
 ![Alt text](img/6.png)
-
-Hasil running:
-
-![Alt text](images/image-7.png)
 
 ## <b>Praktikum: Tugas Praktikum</b>
 
